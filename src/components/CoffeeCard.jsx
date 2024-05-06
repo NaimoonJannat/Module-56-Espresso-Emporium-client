@@ -17,7 +17,7 @@ const CoffeeCard = ({coffee, coffees, setCoffees}) => {
         confirmButtonText: "Yes, delete it!"
       }).then((result) => {
         if (result.isConfirmed) {
-          fetch(`https://espresso-server-rj791a52v-naimoon-jannat-praptis-projects.vercel.app/coffee/${_id}`,
+          fetch(`https://espresso-server-three.vercel.app/coffee/${_id}`,
             {method : 'DELETE',
               
             }

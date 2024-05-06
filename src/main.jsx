@@ -17,7 +17,7 @@ import AuthProvider from './providers/AuthProvider';
   { 
   path: "/", 
   element: <App></App>, 
-  loader: () => fetch('https://espresso-server-rj791a52v-naimoon-jannat-praptis-projects.vercel.app/coffee')
+  loader: () => fetch('https://espresso-server-three.vercel.app/coffee')
   }, 
   { 
     path: "/addcoffee", 
@@ -26,7 +26,7 @@ import AuthProvider from './providers/AuthProvider';
     { 
       path: "/updatecoffee/:id", 
       element: <UpdateCoffee></UpdateCoffee>, 
-      loader: ({params})=>fetch(`https://espresso-server-rj791a52v-naimoon-jannat-praptis-projects.vercel.app/coffee/${params.id}`)
+      loader: ({params})=>fetch(`https://espresso-server-three.vercel.app/coffee/${params.id}`)
     }, 
     {
       path: "/signup",

@@ -16,7 +16,7 @@ const AddCoffee = () => {
         console.log(user);
 
         // send data to the server 
-        fetch('https://espresso-server-rj791a52v-naimoon-jannat-praptis-projects.vercel.app/coffee',{
+        fetch('https://espresso-server-three.vercel.app/coffee',{
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'
